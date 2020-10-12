@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="explore.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Explore</title>
+  <script src="/typed.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card" data-aos="fade-down" data-aos-duration="3000">
+
+      <div class="confuse_img">
+        <img src="confused.png" alt="">
+      </div>
+      <h1><span class="type" style="color: rgb(0, 255, 191);"></span></h1>
+      <div class="buttons"  data-aos="fade-up" data-aos-duration="3000" style="text-align: center;">
+        <a href="#" data-hover="click me!">Notes</a>
+        <a href="#">Solutions</a>
+      </div>
+      
+    </div>
+  </div>
+  
+
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+  </div>
+  <script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove", function (e) {
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+
+    var typed = new Typed('.type', {
+      strings: ['Confused ?🤔', 'Stuck Somewhere?', ' Get Simple Solutions', ' Easy Techniques', 'Shine Bright', 'Achieve your aim'],
+      typeSpeed: 120,
+      backSpeed: 200,
+      loop: true,
+    });
+
+  </script>
+
+</body>
+
+</html>

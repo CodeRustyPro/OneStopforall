@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(97, 139, 68) 0%, rgba(55, 212, 165, 0.972) 55%, transparent 55%, transparent 100%), linear-gradient(90deg, rgba(1, 1, 1, 0.07) 0%, rgba(1, 1, 1, 0.07) 19%, transparent 19%, transparent 100%), linear-gradient(112.5deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 37%, transparent 37%, transparent 100%), linear-gradient(67.5deg, rgba(1, 1, 1, 0.05) 0%, rgba(1, 1, 1, 0.05) 81%, transparent 81%, transparent 100%), linear-gradient(22.5deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 16%, transparent 16%, transparent 100%), linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 31%, transparent 31%, transparent 100%), linear-gradient(135deg, rgba(1, 1, 1, 0.04) 0%, rgba(1, 1, 1, 0.04) 8%, transparent 8%, transparent 100%), linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 81%, transparent 81%, transparent 100%), linear-gradient(157.5deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 17%, transparent 17%, transparent 100%), linear-gradient(157.5deg, rgba(1, 1, 1, 0.02) 0%, rgba(1, 1, 1, 0.02) 76%, transparent 76%, transparent 100%), linear-gradient(22.5deg, rgba(1, 1, 1, 0.06) 0%, rgba(1, 1, 1, 0.06) 38%, transparent 38%, transparent 100%), linear-gradient(135deg, rgba(1, 1, 1, 0.01) 0%, rgba(1, 1, 1, 0.01) 92%, transparent 92%, transparent 100%), linear-gradient(157.5deg, rgba(1, 1, 1, 0.03) 0%, rgba(1, 1, 1, 0.03) 95%, transparent 95%, transparent 100%), linear-gradient(135deg, rgba(1, 1, 1, 0.05) 0%, rgba(1, 1, 1, 0.05) 95%, transparent 95%, transparent 100%), linear-gradient(0deg, rgba(1, 1, 1, 0.01) 0%, rgba(1, 1, 1, 0.01) 91%, transparent 91%, transparent 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 5%, transparent 5%, transparent 100%), linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 36%, transparent 36%, transparent 100%), linear-gradient(45deg, rgba(1, 1, 1, 0.01) 0%, rgba(1, 1, 1, 0.01) 20%, transparent 20%, transparent 100%), linear-gradient(0deg, rgba(1, 1, 1, 0) 0%, rgba(1, 1, 1, 0) 41%, transparent 41%, transparent 100%), linear-gradient(157.5deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 93%, transparent 93%, transparent 100%), linear-gradient(90deg, rgba(1, 1, 1, 0.06) 0%, rgba(1, 1, 1, 0.06) 18%, transparent 18%, transparent 100%), linear-gradient(67.5deg, rgba(1, 1, 1, 0.04) 0%, rgba(1, 1, 1, 0.04) 10%, transparent 10%, transparent 100%), linear-gradient(22.5deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 47%, transparent 47%, transparent 100%), linear-gradient(112.5deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0.06) 49%, transparent 49%, transparent 100%), linear-gradient(67.5deg, rgba(1, 1, 1, 0.03) 0%, rgba(1, 1, 1, 0.03) 30%, transparent 30%, transparent 100%), linear-gradient(112.5deg, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0.07) 26%, transparent 26%, transparent 100%), linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 24%, transparent 24%, transparent 100%), linear-gradient(135deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.04) 93%, transparent 93%, transparent 100%), linear-gradient(45deg, rgba(1, 1, 1, 0.03) 0%, rgba(1, 1, 1, 0.03) 82%, transparent 82%, transparent 100%), linear-gradient(90deg, rgba(1, 1, 1, 0) 0%, rgba(1, 1, 1, 0) 4%, transparent 4%, transparent 100%), linear-gradient(157.5deg, rgba(1, 1, 1, 0.05) 0%, rgba(1, 1, 1, 0.05) 22%, transparent 22%, transparent 100%), linear-gradient(45deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 19%, transparent 19%, transparent 100%), linear-gradient(45deg, rgba(1, 1, 1, 0.04) 0%, rgba(1, 1, 1, 0.04) 14%, transparent 14%, transparent 100%), linear-gradient(157.5deg, rgba(223, 235, 170, 0.01) 0%, rgba(0, 0, 0, 0.01) 21%, transparent 21%, transparent 100%), linear-gradient(90deg, rgb(24, 23, 1), rgb(195, 64, 247), rgb(170, 57, 127));
+    overflow: hidden;
+  }
+.container{
+    position:relative;
+    background: url(/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;   
+    cursor: none;
+    clip-path: circle(180vh at 50% -80vh);
+    
+}
+
+img{
+  width: 280px;
+  height: 190px; 
+  float: top;
+  margin-top: -7rem;
+  
+ 
+}
+
+.card{
+  width: 440px;
+  height: 400px;
+  border-radius: 20px;
+  transform:translate(-50%,-50%);
+  box-shadow: -4px 20px 30px -10px black;
+  background-image: repeating-linear-gradient(135deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(83, 220, 200),rgb(58, 78, 174));  
+  font-family: 'Inconsolata', monospace;
+  font-size: 2rem;
+  
+}
+.card h1{
+  animation: glow 2s ease-in-out infinite alternate;
+  
+}
+
+  .cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #2499dd;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+  }
+  
+  .cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #59b62d;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-100%, -50%);
+    transition: .29s;
+  }
+  
+
+
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #23e600, 0 0 40px #e6cf00, 0 0 50px #00e6db, 0 0 60px #e60073, 0 0 70px #e60073;
+      
+
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      
+    }
+  }
+
+.buttons a{
+ text-decoration: none;
+ top:50%;
+ margin: 50px;
+ 
+ color: white;
+ border-radius: 10px;
+ 
+
+}
+.buttons a:hover{
+  background-image: linear-gradient(135deg, transparent 0%, transparent 17%,rgba(87, 146, 234,0.6) 17%, rgba(87, 146, 234,0.6) 59%,transparent 59%, transparent 64%,rgba(34, 81, 222,0.6) 64%, rgba(34, 81, 222,0.6) 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgb(87, 146, 234) 2%, rgb(87, 146, 234) 46%,rgb(114, 178, 239) 46%, rgb(114, 178, 239) 54%,transparent 54%, transparent 63%,rgb(7, 48, 216) 63%, rgb(7, 48, 216) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
