@@ -128,7 +128,10 @@ button{
 button:hover { 
   color: rgb(119, 12, 12);
   border-radius:-2px;
-} 
+}
+button:focus{
+  outline:0;
+}
 .container
 {
 	width: 100%;
