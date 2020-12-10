@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Explore</title>
+    <link rel="stylesheet" type="text/css" href="explore.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="text/javascript" src="explore.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav id="navbar" data-aos="zoom-in">
+        <ul class="nav_bar1">
+            <li style="float:right"><a href="explore.html" target="_blank">Solutions</a></li>
+            <li style="float:right"><a href="explore.html" target="_blank">Notes</a></li>
+            <div class="darkmode">
+                <li style="float:right">
+                    <input type="checkbox" class="checkbox" id="chk" />
+                    <label class="label" for="chk">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </li>
+            </div>
+            <li><a class="active" style="float:left;" href="index.html">OneStop</a></li>
+        </ul>
+    </nav>
+    <div class="container"  data-aos="fade-right">
+        <div class="ncertsol">
+            <h2>FREE NCERT SOLUTIONS...</h1>
+        </div>
+        <div class="ncertcardcontainer">
+            <div class="ncertcard" id="sol_8">
+                <h4><a href="Class-8.html" target="_blank">Class 8</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+            <div class="ncertcard" id="sol_9">
+                <h4><a href="">Class 9</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+            <div class="ncertcard" id="sol_10">
+                <h4><a href="">Class 10</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+        </div>
+        <div class="ncertnot">
+            <h2>FREE NCERT NOTES...</h1>
+        </div>
+        <div class="ncertnotescard">
+            <div class="ncertcard" id="notes_8">
+                <h4><a href="">Class 8</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+            <div class="ncertcard" id="notes_9">
+                <h4><a href="">Class 9</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+            <div class="ncertcard" id="notes_10">
+                <h4><a href="">Class 10</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+        </div>
+        <div class="tipstricks">
+            <h2>Free Tips And Tricks(Chapter Wise)</h1>
+        </div>
+        <div class="tipscard">
+            <div class="ncertcard" id="tips_8">
+                <h4><a href="">Class 8</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+            <div class="ncertcard" id="tips_9">
+                <h4><a href="">Class 9</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+            <div class="ncertcard" id="tips_10">
+                <h4><a href="">Class 10</a></h4>
+                <p><b>Maths,Science,Social Science</b></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script type="text/javascript">
+    var chk = document.getElementById('chk');
+
+    chk.addEventListener('change', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+    </script>
+</body>
+
+</html>
