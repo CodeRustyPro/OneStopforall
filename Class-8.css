@@ -55,9 +55,9 @@ body {
 #darkpopup .arrow{
     position: fixed;
     z-index: 9999;
-    width: 10%;
-    height: 10%;
-    left: 70%;
+    width: 15%;
+    height: 20%;
+    left: 67%;
 }
 
 #featuredark {
