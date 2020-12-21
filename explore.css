@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 *{
   box-sizing: border-box;
+   font-family: 'Balsamiq Sans', cursive;
 }
 
 body {
