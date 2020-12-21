@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 * {
-     font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Fruktur', cursive;
     box-sizing: border-box;
 }
 
